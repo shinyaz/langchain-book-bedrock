@@ -1,0 +1,2 @@
+# LangChain Book with Amazon Bedrock
+このリポジトリは書籍「[LangChain完全入門　生成AIアプリケーション開発がはかどる大規模言語モデルの操り方](https://book.impress.co.jp/books/1123101047)」を [Amazon Bedrock](https://aws.amazon.com/jp/bedrock/) を使って動かすためのソースコードです。
