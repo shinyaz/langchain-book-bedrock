@@ -1,5 +1,4 @@
 import json
-
 import boto3
 
 bedrock_runtime = boto3.client("bedrock-runtime", region_name="us-east-1")
@@ -11,17 +10,17 @@ Assistant:
 """
 
 body = json.dumps(
- {
- "prompt": prompt,
- "max_tokens_to_sample": 500,
- }
+    {
+        "prompt": prompt,
+        "max_tokens_to_sample": 500,
+    }
 )
 
 resp = bedrock_runtime.invoke_model(
- modelId="anthropic.claude-v2",
- body=body,
- contentType="application/json",
- accept="application/json",
+    modelId="anthropic.claude-v2",
+    body=body,
+    contentType="application/json",
+    accept="application/json",
 )
 
 answer = resp["body"].read().decode()

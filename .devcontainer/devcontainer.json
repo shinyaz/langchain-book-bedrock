@@ -19,9 +19,16 @@
 
 	// Configure tool-specific properties.
 	"customizations": {
-		"vscode": {	
+		"vscode": {
+			"settings": {
+				"[python]": {
+					"editor.defaultFormatter": "ms-python.autopep8",
+					"editor.formatOnSave": true
+				}
+			},
 			"extensions": [
-				"amazonwebservices.aws-toolkit-vscode"
+				"amazonwebservices.aws-toolkit-vscode",
+				"ms-python.autopep8"
 			]
 		}
 	}
