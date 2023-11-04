@@ -24,7 +24,8 @@
 				"[python]": {
 					"editor.defaultFormatter": "ms-python.autopep8",
 					"editor.formatOnSave": true
-				}
+				},
+				"python.analysis.autoImportCompletions": true
 			},
 			"extensions": [
 				"amazonwebservices.aws-toolkit-vscode",

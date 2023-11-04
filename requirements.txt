@@ -1,3 +1,8 @@
 boto3
+chainlit
+chromadb
 langchain
 pymupdf
+pysqlite3-binary
+spacy
+tiktoken
